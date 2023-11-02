@@ -1,5 +1,5 @@
-Memory pour le Grand Paris
-==========================
+Memory pour Montpellier
+=======================
 
 [**Jouer**](https://eliemichel.github.io/MemoryMontpellier) | [**Code Source**](https://github.com/eliemichel/MemoryMontpellier)
 

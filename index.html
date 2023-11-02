@@ -675,7 +675,7 @@ const Action = {
 		renderMenu(dom, state);
 		renderScoreboard(dom, state);
 
-		localStorage.setItem("savedState", JSON.stringify(state));
+		localStorage.setItem("MemoryMontpellier-savedState", JSON.stringify(state));
 	},
 
 	ToggleAnswers: () => (dom, state) => {
@@ -770,7 +770,7 @@ const Action = {
 
 		renderScoreboard(dom, state);
 
-		localStorage.setItem("savedState", JSON.stringify(state));
+		localStorage.setItem("MemoryMontpellier-savedState", JSON.stringify(state));
 	},
 
 	AppendFoundStationItem: item => (dom, state) => {
@@ -829,7 +829,7 @@ const Action = {
 
 		renderScoreboard(dom, state);
 
-		localStorage.setItem("savedState", JSON.stringify(state));
+		localStorage.setItem("MemoryMontpellier-savedState", JSON.stringify(state));
 	},
 
 	// This loads a brand new state and recomputes the cached values
@@ -926,7 +926,7 @@ const Action = {
 			renderMap(map, state);
 		});
 
-		localStorage.setItem("savedState", JSON.stringify(state));
+		localStorage.setItem("MemoryMontpellier-savedState", JSON.stringify(state));
 	},
 };
 function dispatch(dom, action) {
@@ -1335,7 +1335,7 @@ $dom.then(dom => {
 });
 
 join($dom, dataLoader.$stationData, dataLoader.$communes, (dom, stationData, communes) => {
-	const savedStateJson = localStorage.getItem("savedState");
+	const savedStateJson = localStorage.getItem("MemoryMontpellier-savedState");
 	if (savedStateJson !== null) {
 		let savedState;
 		try {

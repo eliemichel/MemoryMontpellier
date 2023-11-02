@@ -414,7 +414,8 @@
 			}
 
 			#search-input-container {
-				margin-top: 11em;
+				/*margin-top: 11em;*/
+				margin-top: 4.8em;
 			}
 
 			#scoreboard {
@@ -422,7 +423,8 @@
 				margin: 0 auto;
 				width: 100%;
 				max-width: 30em;
-				height: 11.5em;
+				/*height: 11.5em;*/
+				height: 4.8em;
 				padding-top: 0.4em;
 				overflow: hidden;
 				font-size: 0.9em;
@@ -478,10 +480,11 @@
 		<div id="scoreboard">
 			<div id="stats">
 				<ul>
+					<!--
 					<li><span class="percentage" id="stat-communes">X</span> de communes trouvées</li>
 					<li><span class="percentage" id="stat-surface">X</span> de km² trouvés</li>
 					<li><span class="percentage" id="stat-inhabitants">X</span> d'habitants trouvés</li>
-					<!--<li><span class="percentage" id="stat-forest">0.0</span> de parcs et forêts trouvés</li>-->
+					<li><span class="percentage" id="stat-forest">0.0</span> de parcs et forêts trouvés</li>-->
 					<li><span class="percentage" id="stat-stations">X</span> de gares trouvées</li>
 					<ul id="count-stations-per-line">
 					</ul>
@@ -491,7 +494,7 @@
 			<div>
 				<ul id="counts">
 					<li><span id="count-stations">X</span> gares</li>
-					<li><span id="count-communes">X</span> communes (<span id="count-surface">X</span> km², <span id="count-inhabitants">X</span> k habitants)</li>
+					<!--<li><span id="count-communes">X</span> communes (<span id="count-surface">X</span> km², <span id="count-inhabitants">X</span> k habitants)</li>-->
 				</ul>
 
 				<a id="btn-show-answers" href="javascript:void(0);">Montrer les réponses</a>
@@ -589,13 +592,13 @@ const $dom = $DOMContentLoaded.then(() => {
 		"search-notification",
 		"scoreboard",
 		"found",
-		"stat-communes",
-		"stat-surface",
-		"stat-inhabitants",
+		//"stat-communes",
+		//"stat-surface",
+		//"stat-inhabitants",
 		"stat-stations",
-		"count-communes",
-		"count-surface",
-		"count-inhabitants",
+		//"count-communes",
+		//"count-surface",
+		//"count-inhabitants",
 		"count-stations",
 		"count-stations-per-line",
 		"btn-toggle-menu",
@@ -942,14 +945,14 @@ function renderMenu(dom, state) {
 }
 
 function renderScoreboard(dom, state, newIndex) {
-	dom["stat-communes"].innerText = state.cache.stats.communes.toFixed(1);
-	dom["stat-surface"].innerText = state.cache.stats.surface.toFixed(1);
-	dom["stat-inhabitants"].innerText = state.cache.stats.inhabitants.toFixed(1);
+	//dom["stat-communes"].innerText = state.cache.stats.communes.toFixed(1);
+	//dom["stat-surface"].innerText = state.cache.stats.surface.toFixed(1);
+	//dom["stat-inhabitants"].innerText = state.cache.stats.inhabitants.toFixed(1);
 	dom["stat-stations"].innerText = state.cache.stats.stations.toFixed(1);
 
-	dom["count-communes"].innerText = state.cache.counts.communes;
-	dom["count-surface"].innerText = state.cache.counts.surface.toFixed(1);
-	dom["count-inhabitants"].innerText = (state.cache.counts.inhabitants / 1000.0).toFixed(1);
+	//dom["count-communes"].innerText = state.cache.counts.communes;
+	//dom["count-surface"].innerText = state.cache.counts.surface.toFixed(1);
+	//dom["count-inhabitants"].innerText = (state.cache.counts.inhabitants / 1000.0).toFixed(1);
 	dom["count-stations"].innerText = state.cache.counts.stations;
 
 	dom["btn-show-answers"].style.display = state.showAnswers ? "none" : "inline";

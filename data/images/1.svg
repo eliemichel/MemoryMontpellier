@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933333"
+   version="1.1"
+   id="svg4147"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4144" />
+  <g
+     id="layer1">
+    <g
+       id="g5401"
+       transform="matrix(1.21,0,0,1.21,-1.7356107,-1.7356054)">
+      <path
+         id="path531"
+         style="fill:#547116;fill-opacity:1;stroke:none;stroke-width:0.0499999;stroke-linecap:round;stroke-linejoin:round"
+         d="m 4.4004493,2.8650447 c -1.617787,0 -2.920235,1.30245 -2.920235,2.92024 v 5.2927003 c 0,1.61778 1.302448,2.92023 2.920235,2.92023 h 8.0623697 c 1.617787,0 2.920235,-1.30245 2.920235,-2.92023 V 2.8650447 Z" />
+      <g
+         aria-label="1"
+         id="text186"
+         style="font-size:7.75945px;line-height:1.25;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.193987">
+        <path
+           d="M 7.1376127,7.5268972 V 6.5569659 L 8.4799975,5.765502 h 0.8225017 v 5.07468 H 8.3791247 V 6.7742305 Z"
+           style="font-family:'Hind SemiBold';-inkscape-font-specification:'Hind SemiBold, '"
+           id="path5395" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "found": [],
+  "loading": false,
+  "showMenu": false,
+  "showAnswers": true,
+  "notifyingError": false,
+  "notifyingDuplicate": false,
+  "notifyingSuccess": false,
+  "hoveredCommuneId": null,
+  "preclickedOnStation": false,
+  "cache": null
+}
